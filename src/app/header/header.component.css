@@ -1,27 +1,39 @@
 .navbar {
-  background-color: #151217;
-  color: white;
-  padding: 2rem;
+  background-color: #151217; /* Couleur de fond */
+  color: #FDD90B; /* Couleur du texte */
+  padding: 1rem;
 }
 
-.nav-list {
-  list-style: none;
-  display: flex;
-  gap: 1rem;
-  margin: 0;
-  padding: 0;
+
+/* Applique la couleur du texte aux liens de navigation */
+.navbar .nav-link {
+  color: #FDD90B;
 }
 
-.nav-list {
-  display: inline;
+.navbar .nav-link:hover {
+  color: #FDD90B; /* Maintient la couleur au survol */
+  text-decoration: underline; /* Optionnel : souligne au survol */
 }
 
-.nav-list a {
-    font-size: 1.5rem;
-    color: #FDD90B;
-  text-decoration: none;
+/* Applique la couleur de fond et du texte au bouton */
+.navbar .btn {
+  background-color: #FDD90B; /* Couleur de fond du bouton */
+  color: #151217; /* Couleur du texte du bouton */
 }
 
-.nav-list a:hover {
-  text-decoration: underline;
+.navbar .btn:hover {
+  background-color: #e6c108; /* Couleur légèrement plus claire au survol */
+  color: #151217;
 }
+
+/* Applique la couleur de fond et du texte au champ de recherche */
+.navbar .form-control {
+  background-color: #151217; /* Couleur de fond */
+  color: #FDD90B; /* Couleur du texte */
+  border: 1px solid #FDD90B; /* Bordure assortie */
+}
+
+.navbar .form-control::placeholder {
+  color: #FDD90B; /* Couleur du placeholder */
+}
+

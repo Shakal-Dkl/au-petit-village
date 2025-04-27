@@ -1,11 +1,29 @@
-<nav class="navbar">
-    <div class="logo">
-        <img src="src/assets/img/Logo.jpg" alt="logo-image">
-    </div >
-    <div class="nav-list">
-      <a routerLink="/">Accueil</a>
-      <a routerLink="/product">Produits</a>
-      <a routerLink="/contact">Contact</a>
-      <a routerLink="/about">À propos</a>
+<nav class="navbar navbar-expand-lg ">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="/"><img src="/Logo.jpg" alt="au petit village" style="color: white;" width="70" /></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="/">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="product">Produits</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="about">A propos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="contact">Contact</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
+        <button class="btn" type="submit">Rechercher</button>
+      </form>
     </div>
-  </nav>
+  </div>
+</nav>
+<router-outlet></router-outlet>
