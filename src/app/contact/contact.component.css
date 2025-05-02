@@ -1,3 +1,11 @@
-#formulaire{
-    background-color: #F9D0A3;
+.container{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: #fdd90b;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1); 
+    transition: transform 0.2s;
+    font-size: 16px;
+    color: #151217;
+    font-weight: bold;
 }
