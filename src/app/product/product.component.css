@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('/fonts/bubbleboddyneue-regular_trial.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'CustomFont2';
+    src: url('/fonts/Comfortaa-Regular.ttf') format('truetype');
+}
+
+#fonttittle {
+    font-family: 'CustomFont', sans-serif;
+}  
+
+main {
+    font-family: 'CustomFont2', sans-serif;
+}
